@@ -1,0 +1,14 @@
+//find duplicate element in array and remove it?
+
+let result = [];
+for(let i=0;i<object.length ;i++) {
+    let isDuplicate = false;
+    for(let j=0; j<object.length;j++) {
+        if(object[i].label === object[j].label && object[i].value === object[j].value && i !== j) {
+            isDuplicate = true;   
+        }
+    }
+    if(!isDuplicate) result.push(object[i]);
+}
+
+
