@@ -1,0 +1,178 @@
+outputStream class is an abstract class.it is the superclass of all classes representing an output stream of bytes an output stram accepts output bytes ans sends them
+
+
+
+byte stream sub classes are
+input=read
+output=write
+1)ByteArrayInputStream    input stream that sends data from a                            byte array
+2)ByteArrayOutputStream    o/p stream that writes to abyte 				array
+3)FileInputStream	    i/p stream that reads from a file
+4)FileOutputStream	     o/p stream that writes to a file
+5)PrintStream		    o/p stream that contain print()
+			     and println() methods
+6)SequenceInputStream	     i/p stream that is combination of 			     two or more i/p stream that will 			      be read sequentially ,one after 				another
+
+import java.io.*;
+class Fiecreate
+{
+	public static void main(String args[])throws IOException
+	{
+	 String s="Welcome";
+	 byte b[]=s.getBytes();
+	 FileOutputStream fout=new  FileOutputStream("C;/vhvh/abc.txt");
+fout.
+sy
+fout.
+}
+}
+
+
+
+
+
+
+
+//program to display contain of file
+import java.io.*;
+class Display fileContent
+{
+public static void main(String args[])throws FileNotFoundException,IOException
+{
+
+ FileInputStream fout=new  FileOutputStream("C;/vhvh/abc.txt");
+
+
+
+
+
+
+
+
+//uppercase
+
+
+class DisplayUpperCase
+{
+public static void main(String args[])throws IOException
+{
+
+ FileInputStream fout=new  FileOutputStream("C;/vhvh/abc.txt");
+     	int n;
+	char ch;
+	while(n=fi.read())!=-1)
+  {
+		ch=(char)n;
+		System.out.print(Character.toUpperCase(ch));
+}
+	fi.close();
+   }
+}
+
+//lowercase
+class DisplayLowerCase
+{
+public static void main(String args[])throws IOException
+{
+
+ FileInputStream fout=new  FileOutputStream("C;/vhvh/abc.txt");
+     	int n;
+	char ch;
+	while(n=fi.read())!=-1)
+  {
+		ch=(char)n;
+		System.out.print(Character.toLowerCase(ch));
+}
+	fi.close();
+   }
+}
+
+//program to illustate the use of Filewriter class
+
+import java.io.*;
+class filewriterdemo
+{
+	public static void main(String args[])throws FileNotFoundException,IOException	
+  	{
+	try
+	{
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+array is an object
+how to find out lenth
+datatype
+one dimentional array
+a list of var name using
+declaration of array
+to create an array 
+creating array
+need to use it now
+
+
+program to calculate avgg of 5 no using array
+Class ArrayDemo1
+{
+public  static void main(String arg
+
+
+
+
+
+
+
+
+
+
+
+Or
+class ArrayDemo1
+{
+public static void main(String args[])
+	{
+	  int no[]={5,10,15,20,25}
+	  int
+
+
+
+
+
+
+
+
+
+
+wap program to accept n integer from user into an array and display then one in each program
+import java.util.*;
+class Array
+{
+ public static void main(String args[])
+{
+    int n,i;
+    Scanner sc=new Scanner(System.in);
+    System.out.print("enter no of ele:");
+    n= sc.nextInt();
+   
+
