@@ -20,7 +20,7 @@ class Armstrong1
 			n = n/10;
 		}
 		
-		if ( temp == amo)
+		if ( temp != amo)
 			System.out.println(temp +"  is Armstrong  = "+ amo);
 		else
 			System.out.println(temp + " is Not Armstrong Number = "+ amo);
